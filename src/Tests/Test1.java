@@ -78,6 +78,10 @@ public class Test1 {
         WebElement creation = driver.findElement(By.xpath("(//span[text()='Create contact'])[2]"));
         creation.click();
 
+        // verify the email
+
+        
+
 
 
 
@@ -94,6 +98,8 @@ public class Test1 {
         Enter First name
         Enter Last name
         Click on Create Contact button
+
+
         Verify email and first name as entered
         Click on actions dropdown
         Click on delete button
